@@ -65,7 +65,7 @@ export default function Home() {
                 <div className="form-row">
                   <div className="form-holder">
                   <label class="form-label" for="first-name">Mobile Number</label>
-                      <input type="text" className="form-control" maxLength="12" id="phone" name="phone" required />
+                      <input type="number" className="form-control" maxLength="12" id="phone" name="phone" required />
                   </div>
                   <div className="form-holder">
                   <label class="form-label" for="first-name">Email</label>
